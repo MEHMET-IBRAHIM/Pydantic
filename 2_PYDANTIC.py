@@ -1,4 +1,4 @@
-#------TOPICS------
+#------TOPICS------#
 #pydabtic , Base model
 #Type Validation {Optional}
 #Data Validation {EmailStr} =CUSTOM DATA TYPE
@@ -29,6 +29,7 @@ patient_info={'email':'ABC@gamil.com','name':'MUHAMMAD ABDULLAH','age':"30", 'we
               
 patient1=Patient(**patient_info)    
 insert_patient_data(patient1)
+
 
 
 
